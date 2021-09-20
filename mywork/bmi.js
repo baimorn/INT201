@@ -1,5 +1,5 @@
-const pound = 0.453592 //กำหนดค้าให้ pound = 0.453592 ใช้ const เพราะกำหนดเป็น final เปลี่ยนค่าไม่ได้
-const inch = 0.0254 //กำหนดค้าให้ inch = 0.0254 ใช้ const เพราะกำหนดเป็น final เปลี่ยนค่าไม่ได้
+const pound = 0.453592 //กำหนดค้าให้ pound = 0.453592 ใช้ const เพราะกำหนดเป็น final
+const inch = 0.0254 //กำหนดค้าให้ inch = 0.0254 ใช้ const เพราะกำหนดเป็น final 
 
 function getBMI (poundtokg, inchtometer){ //function ชื่อ getBMI รับค่า poundtokg, inchtometer
     let weight = poundtokg * pound //กำหนดให้ weight คำนวณ poundtokg * pound
